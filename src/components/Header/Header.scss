@@ -1,5 +1,6 @@
 .header {
   padding-top: 100px;
+  height: 100vh;
 }
 
 .header__container {
@@ -49,14 +50,14 @@
 }
 
 .header__button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid black;
-  width: 110px;
-  height: 30px;
-  padding: 12px 20px;
-  text-align: center;
-  line-height: 30px;
+  width: 150px;
+  height: 50px;
   margin-right: 20px;
+  border-radius: 1rem;
 }
 
 .header__button:last-child {

@@ -1,0 +1,104 @@
+.header {
+  padding-top: 100px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0 100px;
+}
+
+.header__primary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__greeting {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.header__name {
+  font-size: 48px;
+  line-height: 46px;
+  font-weight: 500;
+}
+
+.header__profession {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 34.5px;
+}
+
+.header-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.header-text:last-child {
+  margin-bottom: 0;
+}
+
+.header__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.header__button {
+  display: block;
+  border: 1px solid black;
+  width: 110px;
+  height: 30px;
+  padding: 12px 20px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 20px;
+}
+
+.header__button:last-child {
+  margin-right: 0;
+}
+
+.header__contact-info {
+  display: flex;
+  margin-top: 65px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100px;
+}
+
+.header__avatar {
+  position: relative;
+  border: 1px solid black;
+  width: 19rem;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 7rem 1rem;
+}
+
+.header__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__scroll {
+  display: flex;
+  align-items: flex-end;
+  writing-mode: vertical-lr;
+  width: 100px;
+}

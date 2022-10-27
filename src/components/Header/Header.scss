@@ -5,9 +5,10 @@
 
 .header__container {
   display: flex;
+  width: 75%;
   flex-direction: column;
   align-items: stretch;
-  margin: 0 100px;
+  margin: 0 auto;
 }
 
 .header__primary-info {
@@ -49,7 +50,7 @@
   margin-top: 40px;
 }
 
-.header__button {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +61,7 @@
   border-radius: 1rem;
 }
 
-.header__button:last-child {
+.button:last-child {
   margin-right: 0;
 }
 

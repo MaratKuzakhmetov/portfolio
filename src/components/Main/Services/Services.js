@@ -6,10 +6,10 @@ function Services() {
   return (
     <section className="services">
       <div className="services__intro">
-        <h5 className="services__intro-text services__text">The Skills I Have</h5>
+        <h5 className="services__intro-text services__text">What I offer</h5>
       </div>
       <div className="services__me">
-        <h2 className="services__me-text services__text">My Experience</h2>
+        <h2 className="services__me-text services__text">Services</h2>
       </div>
       <div className="services__wrapper">
         <div className="services__position">

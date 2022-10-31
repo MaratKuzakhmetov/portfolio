@@ -1,6 +1,5 @@
 import React from 'react';
 import './Portfolio.scss';
-import Carousel from 'react-bootstrap/Carousel';
 
 function Portfolio() {
   return (
@@ -14,16 +13,16 @@ function Portfolio() {
       <div className="portfolio__wrapper">
         <div className="portfolio__project">
           <div className="porfolio__image">
-            <img src="!#" alt="project" className="portfolio-img" />
+            <img src="./images/we-want-home.png" alt="we-want-home" className="portfolio-img" />
           </div>
           <div className="portfolion__title">
             <h3 className="portfolio-title">
-              Title1
+              We Want Home
             </h3>
           </div>
           <div className="portfolio__description">
             <p className="portfolio-description">
-              description1
+              The social project to help people find their lost animals
             </p>
           </div>
           <div className="porfolio__button">
@@ -34,36 +33,16 @@ function Portfolio() {
         </div>
         <div className="portfolio__project">
           <div className="porfolio__image">
-            <img src="!#" alt="project" className="portfolio-img" />
+            <img src="./images/tokio.png" alt="tokio" className="portfolio-img" />
           </div>
           <div className="portfolion__title">
             <h3 className="portfolio-title">
-              Title1
+              Tokyo
             </h3>
           </div>
           <div className="portfolio__description">
             <p className="portfolio-description">
-              description1
-            </p>
-          </div>
-          <div className="porfolio__button">
-            <a href="!#" className="portfolio-button">
-              Button
-            </a>
-          </div>
-        </div>
-        <div className="portfolio__project">
-          <div className="porfolio__image">
-            <img src="!#" alt="project" className="portfolio-img" />
-          </div>
-          <div className="portfolion__title">
-            <h3 className="portfolio-title">
-              Title1
-            </h3>
-          </div>
-          <div className="portfolio__description">
-            <p className="portfolio-description">
-              description1
+              The landing page with some information about Tokyo
             </p>
           </div>
           <div className="porfolio__button">

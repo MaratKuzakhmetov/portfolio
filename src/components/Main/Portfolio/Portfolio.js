@@ -25,11 +25,9 @@ function Portfolio() {
               The social project to help people find their lost animals
             </p>
           </div>
-          <div className="porfolio__button">
-            <a href="!#" className="portfolio-button">
-              Button
-            </a>
-          </div>
+          <a href="https://github.com/MaratKuzakhmetov/We-Want-Home" download className="portfolio__button button" target="_blank" rel="noreferrer">
+            Button
+          </a>
         </div>
         <div className="portfolio__project">
           <div className="porfolio__image">
@@ -45,11 +43,9 @@ function Portfolio() {
               The landing page with some information about Tokyo
             </p>
           </div>
-          <div className="porfolio__button">
-            <a href="!#" className="portfolio-button">
-              Button
-            </a>
-          </div>
+          <a href="https://github.com/MaratKuzakhmetov/Japan" download className="portfolio__button" target="_blank" rel="noreferrer">
+            Button
+          </a>
         </div>
       </div>
     </section>

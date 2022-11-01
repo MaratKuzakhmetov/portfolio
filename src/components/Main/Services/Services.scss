@@ -1,3 +1,8 @@
+$first__color: white;
+$second__color: #4db5ff;
+$third__color: #17171b;
+$forth__color: #2c2c6c;
+
 .services {
   display: flex;
   flex-direction: column;
@@ -11,12 +16,15 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 23px;
+  opacity: 0.7;
+  color: $first__color;
 }
 
 .services__me-text {
   font-size: 36px;
   font-weight: 500;
   line-height: 34.5px;
+  color: $second__color;
 }
 
 .services__text {
@@ -33,13 +41,18 @@
 }
 
 .services__position {
-  border: 0.5px solid green;
+  border: 0.5px solid $second__color;
   border-radius: 0 0 2rem 2rem;
+  background-color: $forth__color;
+  transition: all 0.4s ease;
+}
+
+.services__position:hover {
+  background: transparent;
 }
 
 .services__header {
-  // border: 1px solid black;
-  background-color: green;
+  background-color: $second__color;
   border-radius: 0 0 2rem 2rem;
 }
 
@@ -61,14 +74,16 @@
 .service__skill {
   display: flex;
   gap: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .service__skill-icon {
   min-width: 20px;
   min-height: 20px;
+  color: $first__color;
 }
 
 .service__task {
   font-size: 18px;
+  color: $first__color;
 }

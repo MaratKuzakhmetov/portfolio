@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import './Header.scss';
 
@@ -21,6 +21,9 @@ function Header() {
           <div className="header__socials">
             <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" className="header-icon">
               <BsLinkedin className="header__icon" />
+            </a>
+            <a href="https://www.instagram.com/marat_kuzakhmetov/" className="header-icon">
+              <AiOutlineInstagram className="header__icon" />
             </a>
             <a href="https://github.com/MaratKuzakhmetov" className="header-icon">
               <AiFillGithub className="header__icon" />

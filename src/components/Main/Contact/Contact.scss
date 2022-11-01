@@ -1,3 +1,8 @@
+$first__color: white;
+$second__color: #4db5ff;
+$third__color: #17171b;
+$forth__color: #2c2c6c;
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -11,12 +16,15 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 23px;
+  color: $first__color;
+  opacity: 0.7;
 }
 
 .contact__me-text {
   font-size: 36px;
   font-weight: 500;
   line-height: 34.5px;
+  color: $second__color;
 }
 
 .contact__text {
@@ -42,9 +50,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
+  border: 0.5px solid transparent;
   border-radius: 2rem;
   padding: 1.2rem;
+  background-color: $forth__color;
+  color: $first__color;
+  transition: all 0.4s ease;
+}
+
+.contact__option:hover {
+  background-color: transparent;
+  border: 0.5px solid $second__color;
 }
 
 .contact__icon {
@@ -66,6 +82,13 @@
 
 .contact__send {
   font-size: 18px;
+  color: $second__color;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.contact__send:hover {
+  color: $first__color;
 }
 
 .contact__form {
@@ -75,10 +98,12 @@
 }
 
 .contact__input {
-  border: 1px solid black;
+  border: 2px solid rgba(77, 181, 255, 0.4);
   border-radius: 1rem;
   padding: 1.5rem;
   width: 100%;
+  background: transparent;
+  color: $first__color;
 }
 
 .contact__input::placeholder {
@@ -89,9 +114,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   width: 150px;
   height: 50px;
   margin-right: 20px;
   border-radius: 1rem;
+  background-color: $second__color;
+  border: 0.5px solid $second__color;
+  transition: all 0.4s ease;
+}
+
+.contact__button:hover {
+  background-color: $first__color;
+  border: 0.5px solid $first__color;
 }

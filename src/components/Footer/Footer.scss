@@ -1,10 +1,15 @@
+$first__color: white;
+$second__color: #4db5ff;
+$third__color: #17171b;
+$forth__color: #2c2c6c;
+
 .footer {
   margin-top: 112px;
   padding-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: green;
+  background-color: $second__color;
   height: 270px;
 }
 
@@ -13,6 +18,13 @@
   font-weight: 500;
   line-height: 23px;
   margin-bottom: 32px;
+  text-decoration: none;
+  color: $third__color;
+  transition: all 0.4s ease;
+}
+
+.footer__intro:hover {
+  color: $first__color;
 }
 
 .footer__links-wrapper {
@@ -20,6 +32,16 @@
   justify-content: center;
   gap: 2rem;
   margin-bottom: 32px;
+}
+
+.footer__link {
+  color: $third__color;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.footer__link:hover {
+  color: $first__color;
 }
 
 .footer__socials {
@@ -33,6 +55,19 @@
   border-radius: 0.7rem;
   padding: 0.8rem;
   background-color: black;
+  border: 0.5px solid black;
+  color: $first__color;
+  transition: all 0.4s ease;
+}
+
+.footer__social:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer__copyright {

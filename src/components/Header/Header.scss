@@ -1,3 +1,7 @@
+$first__color: white;
+$second__color: #4db5ff;
+$third__color: #17171b;
+
 .header {
   padding-top: 100px;
   height: 100vh;
@@ -21,18 +25,21 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 23px;
+  color: $first__color;
 }
 
 .header__name {
   font-size: 48px;
   line-height: 46px;
   font-weight: 500;
+  color: $first__color;
 }
 
 .header__profession {
   font-size: 36px;
   font-weight: 500;
   line-height: 34.5px;
+  color: $first__color;
 }
 
 .header-text {
@@ -54,11 +61,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid $second__color;
+  color: $second__color;
   width: 150px;
   height: 50px;
   margin-right: 20px;
   border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  background-color: $first__color;
+  color: $third__color;
+  border: 1px solid $first__color;
+}
+
+.button-primary {
+  background-color: $second__color;
+  color: $third__color;
 }
 
 .button:last-child {
@@ -82,7 +103,6 @@
 
 .header__avatar {
   position: relative;
-  border: 1px solid black;
   width: 19rem;
   height: 380px;
   overflow: hidden;
@@ -103,4 +123,34 @@
   align-items: flex-end;
   writing-mode: vertical-lr;
   width: 100px;
+}
+
+.header-icon {
+  margin-bottom: 20px;
+}
+
+.header-icon:last-child {
+  margin-bottom: 0;
+}
+
+.header__icon {
+  width: 20px;
+  height: 20px;
+  color: $second__color;
+  transition: all 0.4s ease;
+}
+
+.header__icon:hover {
+  color: $first__color;
+}
+
+.header__scroll-down {
+  color: $second__color;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.4s ease;
+}
+
+.header__scroll-down:hover {
+  color: $first__color;
 }

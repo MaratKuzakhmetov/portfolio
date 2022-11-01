@@ -4,7 +4,7 @@ import { BsCheck2 } from 'react-icons/bs';
 
 function Services() {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <div className="services__intro">
         <h5 className="services__intro-text services__text">What I offer</h5>
       </div>

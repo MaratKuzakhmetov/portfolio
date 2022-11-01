@@ -4,7 +4,7 @@ import './About.scss';
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__intro">
         <h5 className="about__intro-text about__text">Get to know</h5>
       </div>
@@ -22,7 +22,7 @@ function About() {
           <p className="about__information-text">
             I love teamwork as well as solo projects! I am an extroverted introvert, so I am productive in any work environment.
           </p>
-          <a href="#!" className="header__button button">Write me</a>
+          <a href="#contact" className="header__button button button-primary">Write me</a>
         </div>
       </div>
     </section>

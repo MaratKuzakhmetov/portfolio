@@ -475,6 +475,12 @@ textarea {
 
 /* Styles */
 
+$main_background: linear-gradient(90deg,#080451,rgba(4,2,53,.859));
+
 html {
   scroll-behavior: smooth;
+}
+
+.wrapper {
+  background: $main_background;
 }

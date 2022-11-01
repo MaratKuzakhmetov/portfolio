@@ -6,7 +6,7 @@ import './Header.scss';
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="header__container">
         <div className="header__primary-info">
           <h5 className="header__greeting header-text">Hello I'am</h5>
@@ -14,23 +14,23 @@ function Header() {
           <h5 className="header__profession header-text">Software Developer</h5>
         </div>
         <div className="header__cta">
-          <a href="#!" className="header__button button">Download CV</a>
-          <a href="#!" className="header__button button">Write me</a>
+          <a href="./images/cv.pdf" download className="header__button button">Download CV</a>
+          <a href="#contact" className="header__button button button-primary">Write me</a>
         </div>
         <div className="header__contact-info">
           <div className="header__socials">
-            <a href="!#" className="header__linkedin">
-              <BsLinkedin />
+            <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" className="header-icon">
+              <BsLinkedin className="header__icon" />
             </a>
-            <a href="!#" className="header__github">
-              <AiFillGithub />
+            <a href="https://github.com/MaratKuzakhmetov" className="header-icon">
+              <AiFillGithub className="header__icon" />
             </a>
           </div>
           <div className="header__avatar">
             <img src="./images/avatar.jpg" alt="avatar" className="header__avatar-img" />
           </div>
           <div className="header__scroll">
-            <a href="!#" className="header__scroll-down">Scroll Down</a>
+            <a href="#contact" className="header__scroll-down">Scroll Down</a>
           </div>
         </div>
       </div>

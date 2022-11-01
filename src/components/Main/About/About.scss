@@ -1,3 +1,7 @@
+$first__color: white;
+$second__color: #4db5ff;
+$third__color: #17171b;
+
 .about {
   display: flex;
   flex-direction: column;
@@ -11,12 +15,15 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 23px;
+  color: $first__color;
+  opacity: 0.7;
 }
 
 .about__me-text {
   font-size: 36px;
   font-weight: 500;
   line-height: 34.5px;
+  color: $second__color;
 }
 
 .about__text {
@@ -32,9 +39,9 @@
 
 .about__avatar {
   width: 90%;
-  background-color: green;
+  background: linear-gradient(45deg, transparent, $second__color, transparent);
   border-radius: 26px;
-  height: 450px;
+  height: 500px;
   position: relative;
 }
 
@@ -48,7 +55,7 @@
   transform: rotate(10deg);
   border-radius: 25px;
   overflow: hidden;
-  transition: all 0.3s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .about__avatar-img:hover {
@@ -56,13 +63,11 @@
   transition: all 0.3s ease-in;
 }
 
-.about__information {
-
-}
-
 .about__information-text {
   margin: 30px 0;
   font-size: 24px;
   font-weight: 500;
-  line-height: 23px
+  line-height: 23px;
+  color: $first__color;
+  opacity: 0.7;
 }

@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.scss';
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai';
 import { BsTelegram } from 'react-icons/bs';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_vfgipyo', 'contact_form', form.current, 'sXKmhYjxjJzJ3ichi');
+    e.target.reset();
+  };
+
   return (
     <section className="contact">
       <div className="contact__intro">
@@ -27,18 +35,18 @@ function Contact() {
             <a href="https://t.me/Marat_Kuzakhmetov" className="contact__send">Send a message</a>
           </article>
           <article className="contact__option">
-            <BsTelegram className="contact__icon" />
+            <AiOutlineWhatsApp className="contact__icon" />
             <h4 className="contact__title">Messenger</h4>
             <h5 className="contact__info">WhatsApp</h5>
             <a href="https://api.whatsapp.com/send?phone=4915736524376" className="contact__send">Send a message</a>
           </article>
         </div>
         <div className="contact__message">
-          <form>
-            <input type="name" name="name" placeholder="Your Full Name" target="blanc" required />
-            <input type="email" name="email" placeholder="Your Email" required />
-            <textarea name="message" rows="7" placeholder="Your Message" required />
-            <button type="submit">Send Message</button>
+          <form className="contact__form" ref={form} onSubmit={sendEmail}>
+            <input className="contact__input" type="name" name="name" placeholder="Your Full Name" target="blanc" required />
+            <input className="contact__input" type="email" name="email" placeholder="Your Email" required />
+            <textarea className="contact__input" name="message" rows="7" placeholder="Your Message" required />
+            <button type="submit" className="contact__button">Send Message</button>
           </form>
         </div>
       </div>

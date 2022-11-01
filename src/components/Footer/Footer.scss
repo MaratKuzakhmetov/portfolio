@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 112px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+  height: 270px;
+}
+
+.footer__intro {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-bottom: 32px;
+}
+
+.footer__links-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 32px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 32px;
+}
+
+.footer__social {
+  border-radius: 0.7rem;
+  padding: 0.8rem;
+  background-color: black;
+}
+
+.footer__copyright {
+  margin: auto 0 0 0;
+}

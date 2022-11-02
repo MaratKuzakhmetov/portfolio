@@ -19,13 +19,13 @@ function Header() {
         </div>
         <div className="header__contact-info">
           <div className="header__socials">
-            <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" className="header-icon">
+            <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" target="_blank" className="header-icon" rel="noreferrer">
               <BsLinkedin className="header__icon" />
             </a>
-            <a href="https://www.instagram.com/marat_kuzakhmetov/" className="header-icon">
+            <a href="https://www.instagram.com/marat_kuzakhmetov/" target="_blank" className="header-icon" rel="noreferrer">
               <AiOutlineInstagram className="header__icon" />
             </a>
-            <a href="https://github.com/MaratKuzakhmetov" className="header-icon">
+            <a href="https://github.com/MaratKuzakhmetov" target="_blank" className="header-icon" rel="noreferrer">
               <AiFillGithub className="header__icon" />
             </a>
           </div>

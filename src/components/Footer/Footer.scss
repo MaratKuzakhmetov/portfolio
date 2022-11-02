@@ -10,7 +10,7 @@ $forth__color: #2c2c6c;
   flex-direction: column;
   align-items: center;
   background-color: $second__color;
-  height: 270px;
+  height: 320px;
 }
 
 .footer__intro {
@@ -29,6 +29,7 @@ $forth__color: #2c2c6c;
 
 .footer__links-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   margin-bottom: 32px;

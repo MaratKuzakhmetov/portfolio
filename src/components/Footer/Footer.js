@@ -41,13 +41,13 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" className="footer__social">
+        <a href="https://www.linkedin.com/in/marat-kuzakhmetov/" target="_blank" className="footer__social" rel="noreferrer">
           <AiFillLinkedin className="footer__icon" />
         </a>
-        <a href="https://www.instagram.com/marat_kuzakhmetov/" className="footer__social">
+        <a href="https://www.instagram.com/marat_kuzakhmetov/" target="_blank" className="footer__social" rel="noreferrer">
           <AiOutlineInstagram className="footer__icon" />
         </a>
-        <a href="https://github.com/MaratKuzakhmetov" className="footer__social">
+        <a href="https://github.com/MaratKuzakhmetov" target="_blank" className="footer__social" rel="noreferrer">
           <AiFillGithub className="footer__icon" />
         </a>
       </div>

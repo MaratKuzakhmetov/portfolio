@@ -32,13 +32,13 @@ function Contact() {
             <BsTelegram className="contact__icon" />
             <h4 className="contact__title">Messenger</h4>
             <h5 className="contact__info">Telegram</h5>
-            <a href="https://t.me/Marat_Kuzakhmetov" className="contact__send">Send a message</a>
+            <a href="https://t.me/Marat_Kuzakhmetov" target="_blank" className="contact__send" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <AiOutlineWhatsApp className="contact__icon" />
             <h4 className="contact__title">Messenger</h4>
             <h5 className="contact__info">WhatsApp</h5>
-            <a href="https://api.whatsapp.com/send?phone=4915736524376" className="contact__send">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=4915736524376" target="_blank" className="contact__send" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <div className="contact__message">

@@ -83,3 +83,37 @@ $forth__color: #2c2c6c;
 .experience__icon {
   color: $second__color;
 }
+
+@media (max-width: 1050px) {
+  .experience__wrapper {
+    margin-top: 25px;
+    align-self: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 529px) {
+  .experience__wrapper {
+    margin-top: 25px;
+    align-self: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .experience__stack {
+    border-radius: 2rem;
+    padding: 1.5rem;
+    background-color: $forth__color;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+  }
+
+  .experience__stack:hover {
+    padding: 1.5rem;
+  }
+}
+

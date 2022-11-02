@@ -22,7 +22,7 @@ function About() {
           <p className="about__information-text">
             I love teamwork as well as solo projects! I am an extroverted introvert, so I am productive in any work environment.
           </p>
-          <a href="#contact" className="header__button button button-primary">Write me</a>
+          <a href="#contact" className="header__button button button-primary about__button">Write me</a>
         </div>
       </div>
     </section>

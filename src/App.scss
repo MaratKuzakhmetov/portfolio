@@ -481,6 +481,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  width: 0px;
+}
+
 .wrapper {
   background: $main_background;
 }

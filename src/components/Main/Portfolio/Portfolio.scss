@@ -109,3 +109,47 @@ $forth__color: #2c2c6c;
   color: $third__color;
   border: 0.5px solid $first__color;
 }
+
+@media (max-width: 1350px) {
+  .portfolio__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .porfolio__image {
+    height: 25rem;
+  }
+
+  .portfolio-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 920px) {
+  .porfolio__image {
+    height: 18rem;
+  }
+
+  .portfolio-img {
+    height: 18rem;
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 689px) {
+  .porfolio__image {
+    max-height: 12rem;
+    min-height: 10rem;
+  }
+
+  .portfolio-img {
+    max-height: 12rem;
+    min-height: 10rem;
+    border-radius: 2rem;
+    object-fit: fill;
+  }
+}

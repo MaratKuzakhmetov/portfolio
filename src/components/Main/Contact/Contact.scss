@@ -127,3 +127,39 @@ $forth__color: #2c2c6c;
   background-color: $first__color;
   border: 0.5px solid $first__color;
 }
+
+@media (max-width: 900px) {
+  .contact__wrapper {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .contact__option {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact__option {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__info {
+    font-size: 13px;
+  }
+}

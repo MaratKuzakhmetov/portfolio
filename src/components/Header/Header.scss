@@ -154,3 +154,14 @@ $third__color: #17171b;
 .header__scroll-down:hover {
   color: $first__color;
 }
+
+@media (max-width: 500px) {
+  .header__socials, .header__scroll {
+    display: none;
+  }
+
+  .header__contact-info {
+    justify-content: center;
+  }
+
+}

@@ -44,8 +44,8 @@ function Contact() {
         <div className="contact__message">
           <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <input className="contact__input" type="name" name="name" placeholder="Your Full Name" target="blanc" required />
-            <input className="contact__input" type="email" name="email" placeholder="Your Email" required />
-            <textarea className="contact__input" name="message" rows="7" placeholder="Your Message" required />
+            <input autoComplete="new-password" className="contact__input" type="email" name="email" placeholder="Your Email" required />
+            <textarea autoComplete="off" className="contact__input" name="message" rows="7" placeholder="Your Message" required />
             <button type="submit" className="contact__button">Send Message</button>
           </form>
         </div>

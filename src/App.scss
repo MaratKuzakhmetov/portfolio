@@ -5,6 +5,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 html,
 body,
 div,
@@ -475,7 +477,6 @@ textarea {
 
 /* Styles */
 
-// $main_background: linear-gradient(90deg,#080451,rgba(4,2,53,.859));
 $main_background: linear-gradient(90deg,#1f2605, #1f2605);
 
 html {
@@ -488,4 +489,5 @@ html::-webkit-scrollbar {
 
 .wrapper {
   background: $main_background;
+  font-family: 'Lato', sans-serif;
 }

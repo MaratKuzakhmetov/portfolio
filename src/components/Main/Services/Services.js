@@ -20,7 +20,7 @@ function Services() {
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Developed the architecture and logic of the project
+                Component display logic
               </h4>
             </li>
             <li className="service__skill">
@@ -32,13 +32,13 @@ function Services() {
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Developing Functional React Components
+                Development of functional components with React and Redux
               </h4>
             </li>
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Specifying routing components
+                Routing setup with React Router DOM
               </h4>
             </li>
             <li className="service__skill">
@@ -88,25 +88,25 @@ function Services() {
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Set up endpoints according to REST API, authorization, sessions
+                Set up endpoints according to REST API
               </h4>
             </li>
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Developed the architecture of the application and the database
+                Designing the database structure and optimizing SQL queries
               </h4>
             </li>
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Set up connections in the database
+                API integration with internal and external systems
               </h4>
             </li>
             <li className="service__skill">
               <BsCheck2 className="service__skill-icon" />
               <h4 className="service__task">
-                Ajax fetch API/Axios
+                Differentiation of user rights
               </h4>
             </li>
 

@@ -13,11 +13,11 @@ function About() {
       </div>
       <div className="about__details">
         <div className="about__avatar">
-          <img src="./images/avatar.jpg" alt="img" className="about__avatar-img" />
+          <img src="./images/photo.jpeg" alt="img" className="about__avatar-img" />
         </div>
         <div className="about__information">
           <p className="about__information-text">
-            I do front-end development. I like to develop and learn something new. And this is the main reason why I chose the IT field. There is no limit to development in IT.
+            I do software development. I like to develop and learn something new. And this is the main reason why I chose the IT field. There is no limit to development in IT.
           </p>
           <p className="about__information-text">
             I love teamwork as well as solo projects! I am an extroverted introvert, so I am productive in any work environment.

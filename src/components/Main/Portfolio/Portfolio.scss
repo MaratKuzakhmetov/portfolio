@@ -2,6 +2,7 @@ $first__color: white;
 $second__color: #9ACD32;
 $third__color: #17171b;
 $forth__color: #25331A;
+$intro__text: 18px;
 
 .portfolio {
   display: flex;
@@ -13,7 +14,7 @@ $forth__color: #25331A;
 }
 
 .portfolio__intro-text {
-  font-size: 24px;
+  font-size: $intro__text;
   font-weight: 500;
   line-height: 23px;
   opacity: 0.7;

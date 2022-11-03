@@ -8,7 +8,7 @@ Check out the website [HERE](https://my-website-ecru-psi.vercel.app/)!
 
 ## Summary
 
-I built My Website app to have some website about me.
+I built My Website app to show some information about me.
 
 Some screenshots to show how app displays on mobile devices:
 

@@ -57,12 +57,12 @@ function Portfolio() {
           </div>
           <div className="portfolion__title">
             <h3 className="portfolio-title">
-              Tokyo
+              Japan
             </h3>
           </div>
           <div className="portfolio__description">
             <p className="portfolio-description">
-              The landing page with some information about Tokyo
+              The landing page with some information about Japan
             </p>
           </div>
           <a href="https://github.com/MaratKuzakhmetov/Japan" download className="portfolio__button" target="_blank" rel="noreferrer">

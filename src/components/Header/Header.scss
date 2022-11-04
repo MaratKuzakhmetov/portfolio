@@ -166,3 +166,25 @@ $third__color: #17171b;
   }
 
 }
+
+@media (max-height: 720px) {
+  .header {
+    padding-top: 60px;
+  }
+
+  .header__avatar {
+    display: none;
+  }
+
+  .header__contact-info {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+  }
+
+  .header__container {
+    position: relative;
+  }
+}
